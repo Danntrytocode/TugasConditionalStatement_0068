@@ -40,5 +40,15 @@ int main(){
 // Header sesuai gambar
 cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
 
+// Memanggil prosedur input
+MenghitungBMI();
 
+// Output sesuai gambar
+float insert = perhitungan_bmi(NilBB,NilTB);
+cout << endl;
+cout << "--- Hasil ---" << endl;
+cout << "BMI Anda = " << insert << endl;
+cout << "Dengan Status = " << bmi(insert) << endl;
+
+return 0;
 }
