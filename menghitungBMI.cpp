@@ -13,3 +13,7 @@ void MenghitungBMI(){
     cin >> NilTB;
 }
 
+//Fungsi hitung BMI
+float perhitungan_bmi(float b, float t){
+    return b/(t * t);
+}
